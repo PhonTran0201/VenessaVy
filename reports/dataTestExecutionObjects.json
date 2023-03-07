@@ -1,0 +1,158 @@
+[
+    {
+        "id": "SAAS-16022",
+        "name": "",
+        "description": "",
+        "updatedDate": "Mon, 13 Jun 2022 10:34:14 GMT",
+        "data": [
+            {
+                "key": "Guarantee No",
+                "value": "ALS-G001306"
+            },
+            {
+                "key": "Frame Agmt No",
+                "value": "ALS-FA0791"
+            },
+            {
+                "key": "Application No",
+                "value": "ALS-A001475"
+            },
+            {
+                "key": "Product",
+                "value": "Skattetrekksgaranti"
+            },
+            {
+                "key": "PeriodStartBackDated",
+                "value": "14/06/2021"
+            },
+            {
+                "key": "PeriodEndBackDated",
+                "value": "13/06/2022"
+            },
+            {
+                "key": "url",
+                "value": "https://app.seamless.biz/#/customer/account?id=9fd30edc-3ff3-4e9a-b2da-ef31c4683b64&tab=guarantee"
+            }
+        ]
+    },
+    {
+        "id": "SAAS-16833",
+        "name": "",
+        "description": "",
+        "updatedDate": "Tue, 31 May 2022 02:38:31 GMT",
+        "data": [
+            {
+                "key": "Guarantee No",
+                "value": "HOGS-G016626"
+            },
+            {
+                "key": "Frame Agmt No",
+                "value": "HOGS-FA3422"
+            },
+            {
+                "key": "Application No",
+                "value": "HOGS-A005873"
+            },
+            {
+                "key": "Product",
+                "value": "Skattetrekksgaranti"
+            },
+            {
+                "key": "PeriodStartBackDated",
+                "value": "01/06/2021"
+            },
+            {
+                "key": "PeriodEndBackDated",
+                "value": "31/05/2022"
+            },
+            {
+                "key": "url",
+                "value": "https://guarantee.staging.contemisaasdev.com/#/customer/account?id=20a0cb5c-c0b2-44b4-b0a6-f55c7588ae30&tab=guarantee"
+            }
+        ]
+    },
+    {
+        "id": "SAAS-18163",
+        "name": "",
+        "description": "",
+        "updatedDate": "Wed, 01 Jun 2022 10:57:12 GMT",
+        "data": [
+            {
+                "key": "url",
+                "value": "https://guarantee.staging.contemisaasdev.com/#/customer/account?id=bffcca67-b419-4c12-94a6-0e5412a6fad3&tab=instalment"
+            },
+            {
+                "key": "Instalment No",
+                "value": "SE-I000717"
+            }
+        ]
+    },
+    {
+        "id": "SAAS-18167",
+        "name": "",
+        "description": "",
+        "updatedDate": "Wed, 01 Jun 2022 09:44:29 GMT",
+        "data": [
+            {
+                "key": "url",
+                "value": "https://guarantee.staging.contemisaasdev.com/#/customer/account?id=a1aa6fe2-4e2f-4862-82c6-6edb7838c073&tab=instalment"
+            },
+            {
+                "key": "Instalment No",
+                "value": "SE-I000596"
+            },
+            {
+                "key": "Guarantee No",
+                "value": "SE-S000296"
+            },
+            {
+                "key": "StartDate",
+                "value": "02/06/2021"
+            },
+            {
+                "key": "EndDate",
+                "value": "01/06/2022"
+            },
+            {
+                "key": "NewStartDate",
+                "value": "02/06/2022"
+            },
+            {
+                "key": "NewEndDate",
+                "value": "01/06/2023"
+            }
+        ]
+    },
+    {
+        "id": "SAAS-18170",
+        "name": "",
+        "description": "",
+        "updatedDate": "Wed, 01 Jun 2022 10:35:35 GMT",
+        "data": [
+            {
+                "key": "url",
+                "value": "https://guarantee.staging.contemisaasdev.com/#/customer/account?id=f40f3740-ffb9-4c9f-9a91-ebdf08419e7a&tab=instalment"
+            },
+            {
+                "key": "Instalment No",
+                "value": "SE-I000716"
+            }
+        ]
+    },
+    {
+        "id": "VAR-2032_12",
+        "name": "",
+        "description": "",
+        "updatedDate": "Fri, 02 Dec 2022 09:50:35 GMT",
+        "data": [
+            {
+                "key": "ChecklistName",
+                "value": "List (E)"
+            },
+            {
+                "key": "ChecklistDeadline",
+                "value": "02/12/2022"
+            }
+        ]
+    }
+]
