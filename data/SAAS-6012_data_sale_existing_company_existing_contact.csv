@@ -1,0 +1,2 @@
+ChooseFromExistingAccount,Pipeline,Stage,SaleName,Product,SalesRep,Currency,Amount,ClosedDate
+PreconditionComapnySale2,Pipeline Test,Lost - 0%,SaleExistingCompany 2,Automation Test Product,contemi_jolie,NOK,100,08/11/2022

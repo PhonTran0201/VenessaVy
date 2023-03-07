@@ -1,0 +1,2 @@
+CaseTitle,Workflow,CaseType,SelectEntityType,SearchEntity,Description,DueDate,Queue,Priority,AssignedTo
+Case create,FNOL Default Workflow,FNOL,Account,CVN,Test case,01/01/2020,Opportunity,Normal,Mi Tran

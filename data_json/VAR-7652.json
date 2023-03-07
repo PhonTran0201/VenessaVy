@@ -1,0 +1,12 @@
+{
+    "staging_varsam-staging": [
+        {
+            "ProgramName": "Program VAR-5692",
+            "StartDateMinusToday": "-1",
+            "EndDateMinusStartDate": "",
+            "NotificationTemplate": "SMS",
+            "EmailTemplate": "Email Template 1",
+            "Description": "auto data"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "staging_varsam-staging": [
+        {
+            "NIN": "198005250157",
+            "Name": "Marc Robin SASSILA",
+            "AccountNumber": 1,
+            "Rewards": [
+                {
+                    "RewardName" : "Reward VAR-5692",
+                    "Point": "200",
+                    "EventType": "Reward VAR-5692",
+                    "CustomerName": "Marc Robin SASSILA"
+                }
+            ]
+        }
+    ]
+}

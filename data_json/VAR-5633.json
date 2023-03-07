@@ -1,0 +1,18 @@
+{
+    "staging_varsam-staging": {
+        "QueueType": "My queue",
+        "QueueName": "Queue For Automation Testing",
+        "QueueMember": [
+            {
+                "FullName": "Anna Nguyen",
+                "UserName": "anna.nguyen.varsam@varsam-staging",
+                "Role": "Member"
+            },
+            {
+                "FullName": "Thuy Tien",
+                "UserName": "tien.nguyen@varsam-staging",
+                "Role": "Supervisor"
+            }
+        ]
+    }
+}

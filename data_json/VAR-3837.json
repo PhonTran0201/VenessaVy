@@ -1,0 +1,102 @@
+{
+  "staging_varsam-staging": {
+    "ProductVersion": "v27",
+    "FirstName": "Lena",
+    "LastName": "Varsam",
+    "SaleChannel": "Test Channel",
+    "ProductName": "Hem",
+    "DOB": "01/01/1979",
+    "SSN": "562333256985",
+    "StartDate": "01/02/2023",
+    "EndDate": "31/01/2024",
+    "HouseAddress": "200 Test Street",
+    "PostCode": "11852",
+    "AccomodationType": "Bostadsrätt",
+    "HasMoreThanOneWaterConnectedMachines": "No",
+    "HasWaterBorneHeatingSystem": "No",
+    "HasOldSurfaceLayers": "No",
+    "HasOwnFixedCostFurnishings": "No",
+    "NumberOfPeopleLiving": "2",
+    "HomeSumInsured": "1000000",
+    "HomeExcess": "1500",
+    "HomeSecurity": "Nej",
+    "HomeCombinationOptionalCover": "Nej",
+    "ContentsAllrisk": "Yes",
+    "ApartmentOwnership": "Yes",
+    "ApartmentAllrisk": "Yes",
+    "TravelAllrisk": "Yes",
+    "Cancellation": "No",
+    "PARecreational": "No",
+    "Crisis": "No",
+    "ContentsBoat": "No",
+    "IDTheft": "No",
+    "ExternalText": "External text test",
+    "InternalText": "Internal text test",
+    "UnderwritingAdjustment": "0",
+    "SalesDiscount": "0",
+    "ProductCommission": "0",
+    "SalesCommission": "0",
+    "Currency": "SEK",
+    "StatusPolicy": "Active",
+    "NameOfPreviousInsurer": "New insurance",
+    "RenewalMode": "Automatic Renewal Quote",
+    "Premium": [
+      {
+        "AnnualPremium_PremiumExlTax": "2835.05",
+        "AnnualPremium_UnderwritingAdjustment": "0",
+        "AnnualPremium_SalesDiscount": "0",
+        "AnnualPremium_ProductCommission": "0",
+        "AnnualPremium_SalesCommission": "0",
+        "AnnualPremium_Tax": "0",
+        "TotalPremium_AnnualPremium": "2835.05"
+      },
+      {
+        "PolicyPremium_PremiumExlTax": "2835.05",
+        "PolicyPremium_UnderwritingAdjustment": "0",
+        "PolicyPremium_SalesDiscount": "0",
+        "PolicyPremium_ProductCommission": "0",
+        "PolicyPremium_SalesCommission": "0",
+        "PolicyPremium_Tax": "0",
+        "TotalPremium_PolicyPremium": "2835.05"
+      }
+    ],
+    "CoverBreakdown": [
+      {
+        "AnnualPremium_Stöld_och_inbrott": "440.75",
+        "AnnualPremium_Vatten_och_läckage": "440.75",
+        "AnnualPremium_Brand": "176.27",
+        "AnnualPremium_Övrigt_lösöre": "176.27",
+        "AnnualPremium_Resa": "387.86",
+        "AnnualPremium_Person": "176.27",
+        "AnnualPremium_Allrisk_lösöre": "393.75",
+        "AnnualPremium_Bostadsrätt": "262.50",
+        "AnnualPremium_Allrisk_bostadsrätt": "183.75",
+        "AnnualPremium_Allrisk_resa": "196.88",
+        "AnnualPremium_Total_premium": "2835.05"
+      },
+      {
+        "PolicyPremium_Stöld_och_inbrott": "440.75",
+        "PolicyPremium_Vatten_och_läckage": "440.75",
+        "PolicyPremium_Brand": "176.27",
+        "PolicyPremium_Övrigt_lösöre": "176.27",
+        "PolicyPremium_Resa": "387.86",
+        "PolicyPremium_Person": "176.27",
+        "PolicyPremium_Allrisk_lösöre": "393.75",
+        "PolicyPremium_Bostadsrätt": "262.50",
+        "PolicyPremium_Allrisk_bostadsrätt": "183.75",
+        "PolicyPremium_Allrisk_resa": "196.88",
+        "PolicyPremium_Total_premium": "2835.05"
+      }
+    ],
+    "PolicyTimelineStartDatePopover": [
+      {
+        "Personnummer (ååååmmddxxxx)": "562333256985",
+        "Förnamn": "Lena",
+        "Efternamn": "Varsam"
+      }
+    ]
+  },
+  "uat_varsam-staging": {
+    "abc": 123
+  }
+}

@@ -1,0 +1,2 @@
+SalesChannel,Product,StartDateMinusToday,EndDateMinusStartDate,Name,Age,NumberOfTraveller,LuggageExcess,AdditionalCover,ExpectedPremium,ExpectedStatus,Currency
+Test Channel,Automation Test Product,0,365,Jolie Nguyen,41,Single Adult,250,Yes,1223.34,Completed,GBP

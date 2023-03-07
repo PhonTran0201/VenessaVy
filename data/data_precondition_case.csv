@@ -1,0 +1,2 @@
+CaseTitle,CaseType,SelectEntityType,Entity,Description,Duedate,Queue,Priority,Assignedto
+Case Test,Claim workflow,,,Test case,30/11/2020,QueueTest,Normal,Automation Test

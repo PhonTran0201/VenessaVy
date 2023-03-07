@@ -1,0 +1,58 @@
+{
+    "staging_varsam-staging": [
+        {
+            "TypeLead": "person",
+            "FirstName": "John",
+            "LastName": "Nguyen",
+            "Name": "John Nguyen",
+            "SelectedAccount": "John Nguyen",
+            "DOB": "30/11/2002",
+            "Gender": "Male",
+            "Address": "P.O.Box 55 Falkum",
+            "Postcode": "3705",
+            "City": "Skien",
+            "Country": "Sweden",
+            "EmailAddress": "sofia.nguyen@contemi.com",
+            "PhoneNumber": "0843405082",
+            "PreferredCommunication": "Phone",
+            "Status": "Lost",
+            "KAM": "Sofia Contemi",
+            "PaymentType": "Invoice",
+            "PaymentFrequency": "Monthly",
+            "PreferredCollectionDate": "14",
+            "Relationships": [
+                {
+                    "Account": "company account - should not use",
+                    "Type": "Child"
+                },
+                {
+                    "Account": "Yen Hoang Nguyen",
+                    "Type": "Child"
+                },
+                {
+                    "Account": "John Snow",
+                    "Type": "Partner"
+                }
+            ],
+            "Contacts": [
+                {
+                    "FirstName": "James",
+                    "LastName": "Tran",
+                    "DateOfBirth": "02/01/2000",
+                    "Email": "james.tran@contemi.com",
+                    "Phone": "0587677723",
+                    "Type": "Children"
+                },
+                {
+                    "FirstName": "Quoc",
+                    "LastName": "Phong",
+                    "DateOfBirth": "24/12/2006",
+                    "Email": "quoc.phong@contemi.com",
+                    "Phone": "0772837745",
+                    "Type": "Partner"
+                }
+            ]
+        }
+    ],
+    "uat_varsam-staging": {}
+}

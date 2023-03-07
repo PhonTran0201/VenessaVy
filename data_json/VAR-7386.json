@@ -1,0 +1,15 @@
+{
+    "staging_varsam-staging": [
+        {
+            "ProgramName": "Program Testing",
+            "StartDateMinusToday": "-10",
+            "EndDateMinusStartDate": "30",
+            "NotificationTemplate": "SMS",
+            "EmailTemplate": "Email Template 1",
+            "Description": "Program test"
+        }
+    ],
+    "uat_varsam-staging": {
+        "abc": 123
+    }
+}

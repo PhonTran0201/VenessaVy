@@ -1,0 +1,57 @@
+{
+    "staging_varsam-staging": [
+        {
+            "RewardLog": {
+                "AccountName": "H S MARCUS Nilsson Malmström",
+                "PolicyNumber": "",
+                "Reward": "",
+                "AwardedDate": "06/02/2023",
+                "Points": "12",
+                "Comments": "N/A"
+            }
+        },
+        {
+            "RewardLog": {
+                "AccountName": "Mobile Customer",
+                "PolicyNumber": "",
+                "Reward": "",
+                "AwardedDate": "06/02/2023",
+                "Points": "12",
+                "Comments": "N/A"
+            }
+        },
+        {
+            "RewardLog": {
+                "AccountName": "Mi Tran",
+                "PolicyNumber": "",
+                "Reward": "",
+                "AwardedDate": "06/02/2023",
+                "Points": "100",
+                "Comments": "test"
+            }
+        },
+        {
+            "RewardLog": {
+                "AccountName": "James T Test",
+                "PolicyNumber": "",
+                "Reward": "",
+                "AwardedDate": "03/02/2023",
+                "Points": "777",
+                "Comments": "N/A"
+            }
+        },
+        {
+            "RewardLog": {
+                "AccountName": "Emma Test 1",
+                "PolicyNumber": "",
+                "Reward": "",
+                "AwardedDate": "02/02/2023",
+                "Points": "150",
+                "Comments": "N/A"
+            }
+        }
+    ],
+    "uat_varsam-staging": {
+        "abc": 123
+    }
+}

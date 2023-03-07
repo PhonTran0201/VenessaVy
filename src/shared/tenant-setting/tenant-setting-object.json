@@ -1,0 +1,42 @@
+{
+    "data": {
+        "type": "tenantSettings",
+        "id": "contemi-testing",
+        "attributes": {
+            "displayDateFormat": "dd/MM/yyyy",
+            "displayTimeFormat": "HH:mm",
+            "displayDateTimeFormat": "dd/MM/yyyy HH:mm",
+            "defaultCurrency": "NOK",
+            "currencyDisplayFormat": "ISO",
+            "currencySymbolPlacement": "After",
+            "currencyDecimalPlaces": 1,
+            "currencyThousandSeparator": ",",
+            "currencyDecimalSeparator": ".",
+            "automaticSenderEmail": "insurance.seamless@contemi.com",
+            "bccMailboxEmail": null,
+            "defaultSystemLanguage": "en-gb",
+            "customerPortalEnabled": true,
+            "customerPortalUrl": "https://app.staging.contemisaasdev.com/",
+            "tenantId": "contemi-testing",
+            "actions": {
+                "ManageTenantSettings": {
+                    "isAllowed": true
+                },
+                "ViewCustomerPortalSetting": {
+                    "isAllowed": true
+                }
+            },
+            "numberFormatSetting": {
+                "currencyDecimalDigits": 3,
+                "currencyDecimalSeparator": ",",
+                "currencyGroupSeparator": " ",
+                "currencyNegativePattern": 8,
+                "currencyPositivePattern": 3,
+                "currencySymbol": "GBP",
+                "numberDecimalDigits": 3,
+                "numberDecimalSeparator": ",",
+                "numberGroupSeparator": "."
+            }
+        }
+    }
+}

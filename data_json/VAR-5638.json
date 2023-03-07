@@ -1,0 +1,19 @@
+{
+    "staging_varsam-staging": [
+        {
+            "CaseTitle": "Case check workflow",
+            "CaseType": "Case Type For Auto",
+            "SelectEntityType": "Account",
+            "SearchEntity": "Contemi Haaland",
+            "Description": "check workflow",
+            "DueDate": "",
+            "Priority": "Normal",
+            "AssignedTo": "James Tran",
+            "CaseStatus": "New",
+            "Queue": "Queue For Automation Testing",
+            "ActionButton" : "Approve"
+        }
+    ],
+    "uat_varsam-staging": {
+    }
+}

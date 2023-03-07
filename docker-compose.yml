@@ -1,0 +1,22 @@
+version: '2'
+services:
+  selenium-hub:
+    image: selenium/hub:3.141.59
+    ports:
+      - "4444:4444"
+    restart: always
+
+  selenium-node-chrome-debug:
+    image: selenium/node-chrome-debug:3.141.59
+    ports:
+      - "5900:5900"
+    links:
+      - selenium-hub:hub
+    environment:
+      - HUB_PORT_4444_TCP_ADDR=hub
+      - HUB_HOST=hub
+    depends_on:
+      - selenium-hub
+    restart: always
+
+

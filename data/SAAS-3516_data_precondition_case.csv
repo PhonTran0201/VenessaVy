@@ -1,0 +1,2 @@
+CaseTitle,Workflow,CaseType,Selectentitytype,Entity,Description,Duedate,Queue,Priority,Assignedto
+Case Test,Case Default Workflow,Generic,,,Test case,30/11/2020 10:30,Opportunity,Normal,Henry Nguyen

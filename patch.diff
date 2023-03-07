@@ -1,0 +1,225 @@
+diff --git a/data/master_data.json b/data/master_data.json
+index 175e9ffc..415740c2 100644
+--- a/data/master_data.json
++++ b/data/master_data.json
+@@ -16,6 +16,9 @@
+   "Tomorrow": "Tomorrow",
+   "Get30daysFromDate": "Get30daysFromDate",
+   "Get1YearFromToday": "Get1YearFromToday",
++  "PaymentType": "Invoice",
++  "PaymentFrequency": "Semi-Annually",
++  "ExpectedStatus": "Active",
+   "PopulateProductSample": {},
+   "PopulateProductFritidshus": {
+     "FirstName": "$.FirstName",
+@@ -71,16 +74,18 @@
+   "PopulateProductVattenskoter": {
+     "FirstName": "$.FirstName",
+     "LastName": "$.LastName",
+-    "StartDate": "$.CurrentDate",
+-    "EndDate": "$.Get1YearFromToday",
+-    "DOB": "$.DOB",
+-    "PersonNumber": "500500500500",
++    "StartDate": "21/11/2021",
++    "EndDate": "20/11/2022",
++    "EffectiveDate": "21/10/2022",
++    "DOB": "05/10/1972",
++    "BadPersonNumber": "500500500500",
++    "GoodPersonNumber": "500500500501",
+     "HouseName": "Sea-Doo",
+     "Address": "123123",
+-    "Postnummer": "55459",
++    "Postnummer": "12352",
+     "MakeTag": "Sea-Doo",
+-    "SerialNo": "54321",
+-    "ModelYear": "2018",
++    "SerialNo": "123123",
++    "ModelYear": "2009",
+     "VattenskoterValue": "2000",
+     "VattenskoterPower": "5",
+     "VattenskoterRegion": "Öregrund-Haparanda, Övr Norrland",
+@@ -104,16 +109,16 @@
+     "SalesDiscount": "0",
+     "ProductCommission": "0",
+     "SalesCommission": "0",
+-    "AnnualPremium_UnderwritingAdjustment": "0",
++    "AnnualPremium_UnderwritingAdjustment": "5,773.88 SEK",
+     "AnnualPremium_SalesDiscount": "0",
+     "AnnualPremium_ProductCommission": "0",
+     "AnnualPremium_SalesCommission": "0",
+-    "PolicyPremium_UnderwritingAdjustment": "0",
+-    "PolicyPremium_SalesDiscount": "0",
+-    "PolicyPremium_ProductCommission": "0",
+-    "PolicyPremium_SalesCommission": "0",
+-    "TotalAnnualPremium": "5,7773.88 SEK",
+-    "TotalPolicyPremium": "5,7773.89 SEK",
++    "PolicyPremium_UnderwritingAdjustment": "0.00 SEK",
++    "PolicyPremium_SalesDiscount": "0.00 SEK",
++    "PolicyPremium_ProductCommission": "0.00 SEK",
++    "PolicyPremium_SalesCommission": "0.00 SEK",
++    "TotalAnnualPremium": "5,773.88 SEK",
++    "TotalPolicyPremium": "5,773.89 SEK",
+     "AnnualLegalProtection": "0.00 SEK",
+     "AnnualLiability": "0.00 SEK",
+     "AnnualMachineryBreakdown": "878.98 SEK",
+@@ -121,6 +126,26 @@
+     "PremiumLegalProtection": "0.00 SEK",
+     "PremiumLiability": "0.00 SEK",
+     "PremiumMachineryBreakdown": "878.98 SEK",
+-    "PremiumPropertyDamage": "4,894.91 SEK"
++    "PremiumPropertyDamage": "4,894.91 SEK",
++    "BadCustomer_PremiumExlTag": "11,047.83 SEK",
++    "BadCustomer_AnnualLegalProtection": "0.00 SEK",
++    "BadCustomer_AnnualLiability": "0.00 SEK",
++    "BadCustomer_AnnualMachineryBreakdown": "1,757.96 SEK",
++    "BadCustomer_AnnualPropertyDamage": "9,289.87 SEK",
++    "BadCustomer_PremiumLegalProtection": "0.00 SEK",
++    "BadCustomer_PremiumLiability": "0.00 SEK",
++    "BadCustomer_PremiumMachineryBreakdown": "905.03 SEK",
++    "BadCustomer_PremiumPropertyDamage": "5,025.10 SEK",
++    "BadCustomer_AnnualPremium_SalesDiscount": "0.00 SEK",
++    "BadCustomer_AnnualPremium_ProductCommission": "0.00 SEK",
++    "BadCustomer_AnnualPremium_SalesCommission": "0",
++    "BadCustomer_PolicyPremium_PremiumExlTag": "5,930.13 SEK",
++    "BadCustomer_PolicyPremium_UnderwritingAdjustment": "0.00 SEK",
++    "BadCustomer_PolicyPremium_SalesDiscount": "0.00 SEK",
++    "BadCustomer_PolicyPremium_ProductCommission": "0.00 SEK",
++    "BadCustomer_PolicyPremium_SalesCommission": "0.00 SEK",
++    "PaymentType": "Invoice",
++    "PaymentFrequency": "Semi-Annually",
++    "ExpectedStatus": "Active"
+   }
+ }
+diff --git a/features/insurance/varsam/feature_varsam_staging_tenant/29_VAR-3994_TC_VAR-2263_Marking_Blacklist_Customer.feature b/features/insurance/varsam/feature_varsam_staging_tenant/29_VAR-3994_TC_VAR-2263_Marking_Blacklist_Customer.feature
+index 9f541a48..b24075b9 100644
+--- a/features/insurance/varsam/feature_varsam_staging_tenant/29_VAR-3994_TC_VAR-2263_Marking_Blacklist_Customer.feature
++++ b/features/insurance/varsam/feature_varsam_staging_tenant/29_VAR-3994_TC_VAR-2263_Marking_Blacklist_Customer.feature
+@@ -17,17 +17,31 @@ Feature: [Regression][VAR-2263] Implement Marking blacklist customer
+ 
+ 	@TEST_VAR_3900_1
+ 	Scenario: [TC_Regression] Verify create a New Business quote for product Cabin that has Y-Factor, and the customer is a good credit customer
+-        When User fill data for product "PopulateProductVattenskoter"
++        Given User fill data for product "PopulateProductVattenskoter"
+         And User presses Next button on Create Quote form
+-		And User inputs data at Premium section on Creating Quote form for Varsam product "ProductVattenskoter"
++		And User inputs data at Premium section on Creating Quote form for Varsam product "PopulateProductVattenskoter"
+         And User presses Calculate button at Premium section on Creating Quote form
+-        And User verifies info on Creating Quote form for Varsam product "ProductVattenskoter"
+-        # And User verifies info at Purchase Constraints on Creating Quote form "./data_varsam/varsam_staging/VAR-824_1_data_purchase_constraint1.csv"
+-        #Then User presses Approve button on Creating Quote form
+-        # And User verifies content on toast message "./data_varsam/varsam_staging/VAR-824_1_data_purchase_constraint2.csv"
+-        # And User verifies info at Purchase Constraints on Creating Quote form "./data_varsam/varsam_staging/VAR-824_1_data_purchase_constraint2.csv"
++        And User verifies info on Creating Quote form for Varsam product "PopulateProductVattenskoter"
+         And User presses Accept button on Creating Quote form
+-        # And User verifies info Quote Ready for Purchase on Creating Payment Quote form "./data_varsam/varsam_staging/VAR-824_1_data_quote.csv"
++        And User purchases quote at Creating Quote page
++        And User selects Payment Option "PopulateProductVattenskoter"
++        And User verifies policy information at Policy Created page
++		And User click button Adjust policy 
++		When User change to Bad Credit Customer "PopulateProductVattenskoter"
++		And User presses Next button on Create Quote form
++		And User verifies info on Quote form of Bad Credit Customer for Varsam product "PopulateProductVattenskoter"
++
++	# @TEST_VAR_3900_2
++	# Scenario: [TC_Regression] Verify create a New Business quote for product Cabin that has Y-Factor, and the customer is a bad credit customer
++    #     When User fill data for product "PopulateProductVattenskoter"
++    #     And User presses Next button on Create Quote form
++	# 	And User inputs data at Premium section on Creating Quote form for Varsam product "PopulateProductVattenskoter"
++    #     And User presses Calculate button at Premium section on Creating Quote form
++    #     And User verifies info on Creating Quote form for Varsam product "PopulateProductVattenskoter"
++    #     And User presses Accept button on Creating Quote form
++    #     And User purchases quote at Creating Quote page
++    #     And User selects Payment Option "PopulateProductVattenskoter"
++    #     And User verifies policy information at Policy Created page
+ 
+ ################################
+ 	# @TEST_VAR_3900_2
+diff --git a/src/page-objects/back-office-portal/general/quote/quote-layouts/QuoteCreatingQuote.ts b/src/page-objects/back-office-portal/general/quote/quote-layouts/QuoteCreatingQuote.ts
+index 4fb20b92..dbca2747 100644
+--- a/src/page-objects/back-office-portal/general/quote/quote-layouts/QuoteCreatingQuote.ts
++++ b/src/page-objects/back-office-portal/general/quote/quote-layouts/QuoteCreatingQuote.ts
+@@ -1348,5 +1348,20 @@ export class QuoteCreatingQuote extends BasePage {
+         }
+     }
+ 
++    public async validateCoverBreakdownByIndex(expectedValue: string, positionRow: number = 1, positionCol: number = 1): Promise<boolean> {
++        try {
++            let lblValueType = await this.getFieldType(By.xpath(`//section[.//h4[contains(text(),'Cover Breakdown')]]//tbody//tr[${positionRow}]//td[${positionCol}]//span`));
++            let actualValue = await lblValueType.getValue();
++            if (validateApproximateCurrency(expectedValue, actualValue)) {
++                return true;
++            }
++            return await this.driverService.validateRecord("Validate: ", [actualValue.trim(), expectedValue, "Incorrect CoverBreakdown!"]);
++        } catch (error) {
++            console.log('validateCoverBreakdownByIndex');
++            console.log(error);
++            return false;
++        }
++    }
++
+     //#endregion
+ }
+\ No newline at end of file
+diff --git a/src/page-objects/back-office-portal/general/quote/quote-layouts/Varsam-channel/QuoteCreateCabinPage.ts b/src/page-objects/back-office-portal/general/quote/quote-layouts/Varsam-channel/QuoteCreateCabinPage.ts
+index 5ab21391..3578ead8 100644
+--- a/src/page-objects/back-office-portal/general/quote/quote-layouts/Varsam-channel/QuoteCreateCabinPage.ts
++++ b/src/page-objects/back-office-portal/general/quote/quote-layouts/Varsam-channel/QuoteCreateCabinPage.ts
+@@ -92,6 +92,7 @@ export class QuoteCreateCabinPage extends BasePage {
+     locInputformly_6_autocomplete_name_1: By = By.xpath(`//input[contains(@id,'formly_6_autocomplete_name_1')]`);
+     locInputstartDate: By = By.xpath(`//input[contains(@id,'startDate')]`);
+     locInputendDate: By = By.xpath(`//input[contains(@id,'endDate')]`);
++    locInputEffectiveDate: By = By.xpath(`//input[contains(@id,'effectiveDate')]`);
+     locInputInsuredPersonFirstNameTag: By = By.xpath(`//input[contains(@id,'InsuredPersonFirstNameTag')]`);
+     locInputInsuredPersonLastNameTag: By = By.xpath(`//input[contains(@id,'InsuredPersonLastNameTag')]`);
+     locInputInsuredPersonSSNTag: By = By.xpath(`//input[contains(@id,'InsuredPersonSSNTag')]`);
+@@ -446,6 +447,15 @@ export class QuoteCreateCabinPage extends BasePage {
+             throw error;
+         }
+     }
++    async setInputEffectiveDate(value) {
++        try {
++            let ele = await this.getFieldType(this.locInputEffectiveDate);
++            await ele.setValue(value);
++            return true;
++        } catch (error) {
++            throw error;
++        }
++    }
+     async setInputInsuredPersonAddrPostCodeTag(value) {
+         try {
+             let ele = await this.getFieldType(this.locInputInsuredPersonAddrPostCodeTag);
+diff --git a/src/step-definitions/back-office-portal/Insurance/policy-steps/global-policy-steps.ts b/src/step-definitions/back-office-portal/Insurance/policy-steps/global-policy-steps.ts
+index 558e902f..99849332 100644
+--- a/src/step-definitions/back-office-portal/Insurance/policy-steps/global-policy-steps.ts
++++ b/src/step-definitions/back-office-portal/Insurance/policy-steps/global-policy-steps.ts
+@@ -22,6 +22,8 @@ import { numberToCurrency } from "../../../../shared/tenant-setting/tenant-setti
+ import { dataTestcase, scenarioName, subErrorMessages } from "../../../../shared/variables";
+ import { getDataTestCaseObjectByNameField } from "../../../../storage-data/functions/data-test-case";
+ import { getValueDataOfDataTestExecution, pushObjectToDataArrayWithUniqueKey } from "../../../../storage-data/functions/data-test-execution";
++import fs from 'fs';
++import { DataRepo } from "../../../../core/modals/data_repo";
+ 
+ const loader = require("csv-load-sync");
+ 
+@@ -101,9 +103,18 @@ When("User purchases quote at Creating Quote page", async () => {
+ });
+ 
+ When("User selects Payment Option {string}", async (filename) => {
+-  const rows = loader(convertPathFileDataToDataRegression(filename));
+-  let PaymentType = rows[0].PaymentType;
+-  let PaymentFrequency = rows[0].PaymentFrequency;
++  let PaymentType = "";
++  let PaymentFrequency = "";
++  if (fs.existsSync(convertPathFileDataToDataRegression(filename))) {
++    const rows = loader(convertPathFileDataToDataRegression(filename));
++    PaymentType = rows[0].PaymentType;
++    PaymentFrequency = rows[0].PaymentFrequency;
++  } else {
++    const data = await DataRepo.getInstance().loadData(filename);
++    PaymentType = data.PaymentType;
++    PaymentFrequency = data.PaymentFrequency;
++  }
++  
+   dataTestcase.push(new ValidateField("PaymentFrequency", 1, true, [PaymentFrequency], []));
+   let temp = await paymentOptionFormInsurance.inputDataIntoSelectPaymentOptionForm(PaymentType, PaymentFrequency);
+   logFailTestcase(temp, `Input Payment Option failed!`);

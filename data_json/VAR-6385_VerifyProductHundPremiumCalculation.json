@@ -1,0 +1,76 @@
+{
+  "staging_varsam-staging": [
+    {
+      "Name": "Bruce Nguyen",
+      "StartDate": "08/12/2021",
+      "EndDate": "07/12/2022",
+      "PreviousInsurerTag": "Saknar försäkring",
+      "DogNameTag": "Hund",
+      "DogDOB": "01/09/2012",
+      "DogID": "123",
+      "DogChipTag": "124352537253726",
+      "DogInsuranceProductsTag": "Stor",
+      "DogBreedTag": " Engelsk toy terrier ",
+      "DogPurchaseValueTag": "31100",
+      "DogPurchaseDateTag": "02/02/2016",
+      "DogGenderTag": "Hona",
+      "HasAnInspectionBeenCarriedOutTag": "No",
+      "DogImportedTag": "Yes",
+      "DogImportedCountryTag": "America",
+      "DogTreatedByVetTag": "Yes",
+      "DogTreatmentReasonsTag": "Sjukdom",
+      "DogDiseasesTypeTag": "Annan",
+      "DogTreatedWithMedicineTag": "Yes",
+      "DogHasUncheckedProblemsTag": "Yes",
+      "DogHasClaimPaymentsTag": "Yes",
+      "DogIsHealthyTag": "Yes",
+      "NgSelectDeductibleAmountTag": "4000",
+      "NgSelectLifeInsuranceTag": "Yes",
+      "PersonalAccidentTag": "No",
+      "UnderwritingAdjustment": "0",
+      "SalesDiscount": "0",
+      "ProductCommission": "0",
+      "SalesCommission": "0",
+      "Currency": "SEK",
+      "PaymentOption": "Autogiro - Monthly",
+      "Premium": [
+        {
+          "AnnualPremium_PremiumExlTax": "7664.35",
+          "AnnualPremium_UnderwritingAdjustment": "0.00",
+          "AnnualPremium_SalesDiscount": "0.00",
+          "AnnualPremium_ProductCommission": "0.00",
+          "AnnualPremium_SalesCommission": "0.00",
+          "AnnualPremium_Tax": "0.00",
+          "AnnualPremium_TotalPremium": "7664,35"
+        },
+        {
+          "PolicyPremium_PremiumExlTax": "7664.35",
+          "PolicyPremium_UnderwritingAdjustment": "0.00",
+          "PolicyPremium_SalesDiscount": "0.00",
+          "PolicyPremium_ProductCommission": "0.00",
+          "PolicyPremium_SalesCommission": "0.00",
+          "PolicyPremium_Tax": "0.00",
+          "PolicyPremium_TotalPremium": "7664.35"
+        }
+      ],
+      "CoverBreakdown": [
+        {
+          "AnnualPremium_Veterinarvardsforsakring": "4323.71",
+          "AnnualPremium_Livforsakring": "2995.47",
+          "AnnualPremium_Medicinforsakring": "229.67",
+          "AnnualPremium_Rehabiliteringsforsakring": "115.50",
+          "AnnualPremium_Tander": "0.00",
+          "AnnualPremium_TotalPremium": "7664.35"
+        },
+        {
+          "Premium_Veterinarvardsforsakring": "4323.71",
+          "Premium_Livforsakring": "2995.47",
+          "Premium_Medicinforsakring": "229.67",
+          "Premium_Rehabiliteringsforsakring": "115.50",
+          "Premium_Tander": "0.00",
+          "Premium_TotalPremium": "7664.35"
+        }
+      ]
+    }
+  ]
+}

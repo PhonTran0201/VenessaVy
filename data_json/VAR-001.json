@@ -1,0 +1,9 @@
+{
+    "staging_varsam-staging":{
+        "abc": 123,
+        "StartDate": "$.CurrentDate"
+    },
+    "uat_varsam-staging":{
+        "abc": 123
+    }
+}

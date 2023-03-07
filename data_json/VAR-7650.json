@@ -1,0 +1,17 @@
+{
+    "staging_varsam-staging": [
+        {
+            "CaseTitle": "Case check Reward",
+            "CaseType": "Case Type For Auto",
+            "SelectEntityType": "Account",
+            "SearchEntity": "Marc Robin SASSILA",
+            "Description": "check Reward workflow",
+            "DueDate": "",
+            "Priority": "Normal",
+            "AssignedTo": "James Tran",
+            "CaseStatus": "New",
+            "Queue": "Queue For Automation Testing",
+            "ActionButton" : "Approve"
+        }
+    ]
+}

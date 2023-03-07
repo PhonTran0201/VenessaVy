@@ -1,0 +1,55 @@
+SelectedRole,Permission,Selected
+AssignPermissionRole,Create leads,Yes
+,Import policy,Yes
+,View policies,Yes
+,MTA policy,Yes
+,Terminate policy,Yes
+,Renew policy,Yes
+,Activate policy,Yes
+,View sensitive policy risk details (Level 2),Yes
+,View protected policy risk details (Level 3),Yes
+,View basic policy risk details (Level 1),Yes
+,View sales commission,Yes
+,Sales discount level 1,Yes
+,Sales discount level 2,Yes
+,View quote commission,Yes
+,Approve Purchase Constraint Level 2,Yes
+,Approve Purchase Constraint Level 3,Yes
+,View protected quote risk details (Level 3),Yes
+,View basic quote risk details (Level 1),Yes
+,Approve Purchase Constraint Level 1,Yes
+,Set sales commission rate,Yes
+,View sensitive quote risk details (Level 2),Yes
+,Set underwriting adjustment,Yes
+,View quotes,Yes
+,Sell quotes,Yes
+,Discard quotes,Yes
+,Accept backdated quotes,Yes
+,Sales discount level 3,Yes
+,Set quote commission rate,Yes
+,View underwriting adjustment,Yes
+,Manage plugin integrations,Yes
+,View plugin integrations,Yes
+,Manage Templates,Yes
+,View Templates,Yes
+,Manage Documents,Yes
+,View Documents,Yes
+,Generate Documents,Yes
+,Delete entities,Yes
+,View entities,Yes
+,Create entities,Yes
+,Update entities,Yes
+,View frame agreements,Yes
+,Manage frame agreements,Yes
+,Create applications,Yes
+,Assess applications,Yes
+,View guarantees,Yes
+,Amend guarantees,Yes
+,Terminate guarantees,Yes
+,Import leads,Yes
+,Update leads,No
+,View leads,Yes
+,Create sales,Yes
+,Delete sales,Yes
+,Update sales,Yes
+,View sales,Yes

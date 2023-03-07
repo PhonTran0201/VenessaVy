@@ -1,0 +1,2 @@
+PaymentType,PaymentFrequency,ExpectedStatus
+Invoice,Monthly,Active

@@ -1,0 +1,13 @@
+{
+    "staging_varsam-staging": {
+        "AwardedDateFrom": "01/02/2023 00:00",
+        "AwardedDateTo": "",
+        "ProgramName": "",
+        "Product": "",
+        "SelectAllPrograms": "true",
+        "SelectAllProducts": ""
+    },
+    "uat_varsam-staging": {
+        "abc": 123
+    }
+}

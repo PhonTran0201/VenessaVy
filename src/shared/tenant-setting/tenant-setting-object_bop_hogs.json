@@ -1,0 +1,41 @@
+{
+    "data": {
+        "type": "tenantSettings",
+        "id": "hogs-testing",
+        "attributes": {
+            "displayDateFormat": "dd/MM/yyyy",
+            "displayTimeFormat": "HH:mm",
+            "displayDateTimeFormat": "dd/MM/yyyy HH:mm",
+            "defaultCurrency": "NOK",
+            "currencyDisplayFormat": "ISO",
+            "currencySymbolPlacement": "After",
+            "currencyDecimalPlaces": 0,
+            "currencyThousandSeparator": ".",
+            "currencyDecimalSeparator": ",",
+            "automaticSenderEmail": "cuong.ly@contemi.com",
+            "defaultSystemLanguage": "en-gb",
+            "customerPortalEnabled": true,
+            "customerPortalUrl": "https://d3ij997at9t4ms.cloudfront.net/",
+            "tenantId": "hogs-testing",
+            "actions": {
+                "ManageTenantSettings": {
+                    "isAllowed": true
+                },
+                "ViewCustomerPortalSetting": {
+                    "isAllowed": true
+                }
+            },
+            "numberFormatSetting": {
+                "currencyDecimalDigits": 0,
+                "currencyDecimalSeparator": ",",
+                "currencyGroupSeparator": ".",
+                "currencyNegativePattern": 8,
+                "currencyPositivePattern": 3,
+                "currencySymbol": "NOK",
+                "numberDecimalDigits": 0,
+                "numberDecimalSeparator": ".",
+                "numberGroupSeparator": ","
+            }
+        }
+    }
+}

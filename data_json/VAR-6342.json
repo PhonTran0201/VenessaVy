@@ -1,0 +1,98 @@
+{
+    "staging_varsam-staging": 
+        {
+            "ProductName": "Premium redistribution seasonal tariff",
+            "ProductVersion": "v8",
+            "StartDate": "02/02/2023",
+            "EndDate": "01/02/2024",
+            "FirstName": "James",
+            "LastName": "Tran",
+            "DOB": "29/07/2000",
+            "CreditRating": "",
+            "CustomerClaimCount": "22",
+            "Address": "P.O.Box 55 Palkum",
+            "PostCode": "3705",
+            "City": "SKIEN",
+            "RentType": "Ikke utleid",
+            "AlarmSytem": "Brannalarm med  lokal varsling",
+            "SmokeDetector": "Seriekoblede Røykvarslere",
+            "WaterStopSystem": "Vannstoppesystem uten varsling",
+            "Electricity": "Elektrisk anlegg nyere enn 15 år",
+            "NumberOfResidents": "1",
+            "Hussopp": "Yes",
+            "ContentSumInsured": "300000",
+            "CoverType": "Traffic only",
+            "ContentType": "Innbo og løsøre privat",
+            "ResidenceType": "Innbo Hus",
+            "DeductibleContent": "6000",
+            "ContentCover": "Standard dekning",
+            "InternalNote": "InternalNote",
+            "ExternalText": "ExternalText",
+            "TerminationText": "TerminationText",
+            "UnderwritingAdjustment": "22",
+            "SalesDiscount": "22",
+            "ProductCommission": "22",
+            "SalesCommission": "0",
+            "Currency": "NOK",
+            "StatusPolicy": "Active",
+            "NameOfPreviousInsurer": "New insurance",
+            "RenewalMode": "Automatic Renewal Quote",
+            "PaymentType": "Invoice",
+            "PaymentFrequency": "Monthly",
+            "TemplateDocName" : "Policy Document",
+            "Premium": [
+                {
+                    "AnnualPremium_PremiumExlTax": "2244816.00 ",
+                    "AnnualPremium_UnderwritingAdjustment": "493859.52",
+                    "AnnualPremium_SalesDiscount": "-602508.61",
+                    "AnnualPremium_ProductCommission": "469956.72",
+                    "AnnualPremium_SalesCommission": "0",
+                    "AnnualPremium_Tax": "119.57",
+                    "TotalPremium_AnnualPremium": "2606243.20"
+                },
+                {
+                    "PolicyPremium_PremiumExlTax": "2244816.00 ",
+                    "PolicyPremium_UnderwritingAdjustment": "493859.52",
+                    "PolicyPremium_SalesDiscount": "-602508.61",
+                    "PolicyPremium_ProductCommission": "469956.72",
+                    "PolicyPremium_SalesCommission": "0",
+                    "PolicyPremium_Tax": "119.57",
+                    "TotalPremium_PolicyPremium": "2606243.20"
+                }
+            ],
+            "CoverBreakdown": [
+                {
+                    "Cover": "Hussopp",
+                    "AnnualPremium": "585.12",
+                    "AnnualIPT": "",
+                    "Premium": "585.12",
+                    "IPT": ""
+                    
+                },
+                {
+                    "Cover": "Innbo Standard",
+                    "AnnualPremium": "2605538.51",
+                    "AnnualIPT": "119.57",
+                    "Premium": "2605538.51",
+                    "IPT": "119.57"
+                    
+                },
+                {
+                    "Cover": "Total premium",
+                    "AnnualPremium": "2606243.20",
+                    "AnnualIPT": "119.57",
+                    "Premium": "2606243.20",
+                    "IPT": "119.57"
+                    
+                }
+            ],
+            "PolicyTimelineStartDatePopover": [
+                {
+                    "Fornavn": "James",
+                    "Etternavn": "Tran",
+                    "PolicyHolderAgeTag": "22"
+                }
+            ]
+        }
+    
+}

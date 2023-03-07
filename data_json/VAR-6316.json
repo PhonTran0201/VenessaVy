@@ -1,0 +1,51 @@
+{
+    "staging_varsam-staging": [
+        {
+            "TypeLead": "person",
+            "NIN": "098668600",
+            "FirstName": "Hoang Dung",
+            "LastName": "Nguyen",
+            "Name": "Hoang Dung Nguyen",
+            "SelectedAccount": "Hoang Dung Nguyen",
+            "DOB": "30/11/2002",
+            "Gender": "Male",
+            "Address": "P.O.Box 55 Falkum",
+            "Postcode": "3705",
+            "City": "Skien",
+            "Country": "Sweden",
+            "EmailAddress": "sofia.nguyen@contemi.com",
+            "PhoneNumber": "0843405082",
+            "PreferredCommunication": "Phone",
+            "Status": "Lost",
+            "KAM": "Sofia Contemi",
+            "PaymentType": "Invoice",
+            "PaymentFrequency": "Monthly",
+            "PreferredCollectionDate": "14",
+            "Relationships": [
+                {
+                    "Account": "company account - should not use",
+                    "Type": "Child"
+                },
+                {
+                    "Account": "Yen Hoang Nguyen",
+                    "Type": "Child"
+                },
+                {
+                    "Account": "John Snow",
+                    "Type": "Partner"
+                }
+            ],
+            "Contacts": [
+                {
+                    "FirstName": "Tien",
+                    "LastName": "Nguyen",
+                    "DateOfBirth": "30/11/2000",
+                    "Email": "sofia.nguyen@contemi.com",
+                    "Phone": "0843405082",
+                    "Type": "Children"
+                }
+            ]
+        }
+    ],
+    "uat_varsam-staging": {}
+}

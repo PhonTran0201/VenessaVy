@@ -1,0 +1,75 @@
+{
+  "staging_varsam-staging": [
+    {
+      "Name": "Bruce Nguyen",
+      "StartDate": "17/11/2021",
+      "EndDate": "16/11/2022",
+      "PolicyHolderDOBTag": "12/10/2000",
+      "CustomerClaimCountTag": "22",
+      "PostcodeTag": "3705",
+      "RentTypeTag": "Ikke utleid",
+      "AlarmSystemTag": " Brannalarm med  lokal varsling ",
+      "SmokeDetectorTag": "Seriekoblede Røykvarslere",
+      "WaterStopSystemTag": "Vannstoppesystem uten varsling",
+      "ElectricityTag": "Elektrisk anlegg nyere enn 15 år",
+      "NumberOfResidentsTag": "1",
+      "IncludeHussoppCoverTag": "Yes",
+      "ContentSumInsuredTag": "300000",
+      "CoverTypeTag": "Traffic only",
+      "ContentTypeTag": "Innbo og løsøre privat",
+      "ResidentTypeTag": "Innbo Hus",
+      "DeductibleContentTag": "6000",
+      "ContentCoverTag": "Standard dekning",
+
+      "UnderwritingAdjustment": "0",
+      "SalesDiscount": "0",
+      "ProductCommission": "0",
+      "SalesCommission": "0",
+      "Currency": "NOK",
+      "PaymentOption": "Autogiro - Monthly",
+      "Premium": [
+        {
+          "AnnualPremium_PremiumExlTax": "2281608.00",
+          "AnnualPremium_UnderwritingAdjustment": "0.00",
+          "AnnualPremium_SalesDiscount": "0.00",
+          "AnnualPremium_ProductCommission": "0.00",
+          "AnnualPremium_SalesCommission": "0.00",
+          "AnnualPremium_Tax": "128.77",
+          "AnnualPremium_TotalPremium": "2281736.77"
+        },
+        {
+          "PolicyPremium_PremiumExlTax": "2281608.00",
+          "PolicyPremium_UnderwritingAdjustment": "0.00",
+          "PolicyPremium_SalesDiscount": "0.00",
+          "PolicyPremium_ProductCommission": "0.00",
+          "PolicyPremium_SalesCommission": "0.00",
+          "PolicyPremium_Tax": "128.77",
+          "PolicyPremium_TotalPremium": "2281736.77"
+        }
+      ],
+      "CoverBreakdown": [
+        {
+          "Cover": "Hussopp",
+          "AnnualPremium": "504.00",
+          "AnnualNaturskade": "",
+          "Premium": "504.00",
+          "Naturskade": ""
+        },
+        {
+          "Cover": "Innbo Standard",
+          "AnnualPremium": "2281104.00",
+          "AnnualNaturskade": "128.77",
+          "Premium": "2281104.00",
+          "Naturskade": "128.77"
+        },
+        {
+          "Cover": "Total premium",
+          "AnnualPremium": "2281736.77",
+          "AnnualNaturskade": "128.77",
+          "Premium": "2281736.77",
+          "Naturskade": "128.77"
+        }
+      ]
+    }
+  ]
+}

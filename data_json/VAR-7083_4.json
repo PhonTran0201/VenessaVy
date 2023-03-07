@@ -1,0 +1,16 @@
+{
+    "staging_varsam-staging":
+    [
+      {
+        "FirstName": "Account",
+        "LastName": "H24",
+        "Address": "24 DBP",
+        "Postcode": "24",
+        "City": "HCMC",
+        "Country": "Sweden",
+        "CustomerName": "Account H24"
+      }
+    ],
+    "staging_contemi-testing":{
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "staging_varsam-staging": [
+        {
+            "CaseTitle": "Case check WF 5636",
+            "CaseType": "Case Type For Auto",
+            "SelectEntityType": "",
+            "SearchEntity": "",
+            "Description": "Test wf on Sales detail",
+            "DueDate": "",
+            "Priority": "Normal",
+            "AssignedTo": "James Tran",
+            "CaseStatus": "New",
+            "Queue": "Queue For Automation Testing"
+        }
+    ],
+    "uat_varsam-staging": {
+    }
+}

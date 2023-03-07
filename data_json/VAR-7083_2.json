@@ -1,0 +1,34 @@
+{
+    "staging_varsam-staging":
+    [
+      {
+        "FirstName": "Acc",
+        "LastName": "1",
+        "Address": "Address",
+        "Postcode": "94",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": "Member"
+      },
+      {
+        "FirstName": "Acc",
+        "LastName": "2",
+        "Address": "Address",
+        "Postcode": "94",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": "Member"
+      },
+      {
+        "FirstName": "Acc",
+        "LastName": "A",
+        "Address": "1 Root Add",
+        "Postcode": "104",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": "Connect"
+      }
+    ],
+    "staging_contemi-testing":{
+    }
+}

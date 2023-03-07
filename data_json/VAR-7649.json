@@ -1,0 +1,11 @@
+{
+    "staging_varsam-staging": [
+        {
+            "RewardName": "Reward VAR-5692",
+            "ProgramName": "Program VAR-5692",
+            "Event": "Workflow State Change",
+            "WorkflowEventIdentificationKey": "AutoPhotoDocumentApprovedEvent",
+            "PointAwarded": "200"
+        }
+    ]
+}

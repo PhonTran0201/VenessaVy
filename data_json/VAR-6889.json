@@ -1,0 +1,128 @@
+{
+    "staging_varsam-staging": {
+        "StartDateMinusToday": "-350",
+        "EndDateMinusToday": "14",
+        "FirstName": "Lena",
+        "LastName": "Smadjur",
+        "SSN": "235623332125",
+        "AddrPostCode": "45647",
+        "AnimalName": "Cat",
+        "PetDOB": "01/01/2010",
+        "PetID": "123456",
+        "PetChip": "PetChip",
+        "PetPurchasedDate": "01/01/2023",
+        "PetPurchaseValue": "500",
+        "HighestCompensation": "10000",
+        "ExternalText": "Externtext",
+        "InternalText": "Interntext",
+        "AnimalTreatedByVet": "Yes",
+        "AnimalTreatedWithMedicine": "Yes",
+        "AnimalHasUncheckedProblems": "Yes",
+        "AnimalHasClaimPayments": "Yes",
+        "AnimalIsHealthy": "Yes",
+        "PreviousInsurer": "Moderna",
+        "AnimalBreed": "Degus",
+        "PetGender": "Hane",
+        "DeductiblePercentage": "",
+        "DeductibleAmount": "2000",
+        "UnderwritingAdjustment": "0",
+        "SalesDiscount": "0",
+        "ProductCommission": "0",
+        "SalesCommission": "0",
+        "Currency": "SEK",
+        "Premium": [
+            {
+                "AnnualPremium_PremiumExlTax": "437.66",
+                "AnnualPremium_UnderwritingAdjustment": "0",
+                "AnnualPremium_SalesDiscount": "0",
+                "AnnualPremium_ProductCommission": "0",
+                "AnnualPremium_SalesCommission": "0",
+                "AnnualPremium_Tax": "0",
+                "TotalPremium_AnnualPremium": "437.66"
+            },
+            {
+                "PolicyPremium_PremiumExlTax": "437.66",
+                "PolicyPremium_UnderwritingAdjustment": "0",
+                "PolicyPremium_SalesDiscount": "0",
+                "PolicyPremium_ProductCommission": "0",
+                "PolicyPremium_SalesCommission": "0",
+                "PolicyPremium_Tax": "0",
+                "TotalPremium_PolicyPremium": "437.66"
+            }
+        ],
+        "CoverBreakdown": [
+            {
+                "AnnualPremium_Veterinary_Insurance": "437.66"
+            },
+            {
+                "PolicyPremium_Veterinary_Insurance": "437.66"
+            }
+        ],
+        "PaymentType": "Invoice",
+        "PaymentFrequency": "Semi-Annually",
+        "ExpectedStatus": "Active"
+    },
+    "PopulateRenewalProductSmadjur": {
+        "StartDateMinusToday": "15",
+        "EndDateMinusToday": "379",
+        "FirstName": "Lena",
+        "LastName": "Smadjur",
+        "SSN": "235623332125",
+        "AddrPostCode": "45647",
+        "AnimalName": "Cat",
+        "PetDOB": "01/01/2011",
+        "PetID": "123456",
+        "PetChip": "PetChip",
+        "PetPurchasedDate": "01/01/2023",
+        "PetPurchaseValue": "600",
+        "HighestCompensation": "10000",
+        "ExternalText": "Externtext",
+        "InternalText": "Interntext",
+        "AnimalTreatedByVet": "Yes",
+        "AnimalTreatedWithMedicine": "Yes",
+        "AnimalHasUncheckedProblems": "Yes",
+        "AnimalHasClaimPayments": "Yes",
+        "AnimalIsHealthy": "Yes",
+        "PreviousInsurer": "Moderna",
+        "AnimalBreed": "Degus",
+        "PetGender": "Hane",
+        "DeductiblePercentage": "",
+        "DeductibleAmount": "2000",
+        "UnderwritingAdjustment": "0",
+        "SalesDiscount": "0",
+        "ProductCommission": "0",
+        "SalesCommission": "0",
+        "Currency": "SEK",
+        "Premium": [
+            {
+                "AnnualPremium_PremiumExlTax": "437.66",
+                "AnnualPremium_UnderwritingAdjustment": "0",
+                "AnnualPremium_SalesDiscount": "0",
+                "AnnualPremium_ProductCommission": "0",
+                "AnnualPremium_SalesCommission": "0",
+                "AnnualPremium_Tax": "0",
+                "TotalPremium_AnnualPremium": "437.66"
+            },
+            {
+                "PolicyPremium_PremiumExlTax": "436.46",
+                "PolicyPremium_UnderwritingAdjustment": "0",
+                "PolicyPremium_SalesDiscount": "0",
+                "PolicyPremium_ProductCommission": "0",
+                "PolicyPremium_SalesCommission": "0",
+                "PolicyPremium_Tax": "0",
+                "TotalPremium_PolicyPremium": "436.46"
+            }
+        ],
+        "CoverBreakdown": [
+            {
+                "AnnualPremium_Veterinary_Insurance": "437.66"
+            },
+            {
+                "PolicyPremium_Veterinary_Insurance": "436.46"
+            }
+        ],
+        "PaymentType": "Invoice",
+        "PaymentFrequency": "Semi-Annually",
+        "ExpectedStatus": "Active"
+    }
+}

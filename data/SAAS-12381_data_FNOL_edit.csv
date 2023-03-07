@@ -1,0 +1,2 @@
+SelectedCase,CaseTitle,Workflow,SelectEntityType,SearchEntity,Description,DueDate,Queue,Priority,AssignedTo
+Case create,Case edit,FNOL Default Workflow,,,Edit case,10/11/2021,,Low,Mi Tran

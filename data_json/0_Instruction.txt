@@ -1,0 +1,42 @@
+1. File name: Id of test case
+2. Json keyword:
+    - <environment_tenantId>
+    Ex: "uat_varsam-preview"
+
+3. Use keyword "%." to get random datetime value
+Ex: "%.CurrentDate"
+
+The keywords are supporting:
+- CurrentDate
+- Tomorrow
+- Get30daysFromDate
+- Get1YearFromToday
+- Get1YearBeforeToday
+- GetPeriod1YearFromNext30days
+
+4. Use keyword "$." to get data from file master_data.json
+Ex: "$.FirstName"
+
+
+5. Use the below template for any new json data:
+
+{
+    "staging_varsam-staging":{
+        "StartDate": "%.CurrentDate",
+        "FirstName": "$.FirstName",
+        "LastName": "Nguyen",
+        "Phone": "65686646546"
+    },
+    "staging_contemi-testing":{
+        "StartDate": "%.CurrentDate",
+        "FirstName": "$.FirstName",
+        "LastName": "Tran",
+        "Phone": "55555555555555"
+    }
+    "uat_contemi-testing":{
+        "StartDate": "%.CurrentDate",
+        "FirstName": "$.FirstName",
+        "LastName": "Nguyen",
+        "Phone": "65686646546"
+    }
+}

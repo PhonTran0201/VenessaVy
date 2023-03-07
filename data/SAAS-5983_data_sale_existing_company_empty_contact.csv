@@ -1,0 +1,2 @@
+ChooseFromExistingAccount,FirstName,LastName,EmailContact,PhoneContact,Pipeline,Stage,SaleName,Product,SalesRep,Currency,Amount,ClosedDate
+PreconditionCompanySale,Emma,Huseby,emma@gmail.com,4654659879,Pipeline Test,Lost - 0%,SaleExistingCompany,Automation Test Product,contemi_jolie,NOK,100,05/10/2021

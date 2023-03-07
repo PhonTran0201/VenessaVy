@@ -1,0 +1,17 @@
+{
+  "Customer": [
+    {
+      "Params": {
+        "id": "f8a0e883-c8fa-4305-9270-8c722ef92f0a"
+      },
+      "Expected": {
+        "Success": true,
+        "Data": {
+          "Reference": "2518",
+          "DateOfBirth": null
+        }
+      }
+    }
+    
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "data": {
+        "type": "tenantSettings",
+        "id": "guarantee",
+        "attributes": {
+            "displayDateFormat": "dd/MM/yyyy",
+            "displayTimeFormat": "HH:mm",
+            "displayDateTimeFormat": "dd/MM/yyyy HH:mm",
+            "defaultCurrency": "NOK",
+            "currencyDisplayFormat": "ISO",
+            "currencySymbolPlacement": "After",
+            "currencyDecimalPlaces": 0,
+            "currencyThousandSeparator": " ",
+            "currencyDecimalSeparator": ".",
+            "automaticSenderEmail": null,
+            "defaultSystemLanguage": "en-gb",
+            "customerPortalEnabled": true,
+            "customerPortalUrl": "https://dickadiahz4pg.cloudfront.net/",
+            "tenantId": "guarantee",
+            "actions": {
+                "ManageTenantSettings": {
+                    "isAllowed": true
+                },
+                "ViewCustomerPortalSetting": {
+                    "isAllowed": true
+                }
+            },
+            "numberFormatSetting": {
+                "currencyDecimalDigits": 0,
+                "currencyDecimalSeparator": ",",
+                "currencyGroupSeparator": " ",
+                "currencyNegativePattern": 8,
+                "currencyPositivePattern": 3,
+                "currencySymbol": "",
+                "numberDecimalDigits": 2,
+                "numberDecimalSeparator": ".",
+                "numberGroupSeparator": ","
+            }
+        }
+    }
+}

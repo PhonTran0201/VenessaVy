@@ -1,0 +1,16 @@
+Từ test execution trên Jira, mình export và download ra file cucumber
+Giải nén, coppy nội dung file rồi paste vào "input.feature"
+
+Trong file "split.ts", thay đổi giá trị biến numberOfFileSplit để có số file feature được tách ra như mong muốn
+ VD: numberOfFileSplit = 6, thì sẽ có 6 file feature được tạo ra từ file input.feature
+
+Trong file "testCasePriority.txt" ta liệt kê tất cả id của những test case cần chạy
+Mỗi hàng là tập hợp những test case run chung với nhau theo thứ tự từ trái qua phải
+
+Mở terminal tại đường dẫn này và gõ lệnh:
+    npx ts-node split.ts
+
+=> Ta được các file output dưới dạng <file_id.feature"
+
+File những file sau khi tách ra, test ở test case đầu tiên, cần thêm 1 khoản trắng ở tag @id của test case:
+    VD: '@TEST_VAR-7024 @Auto'  => '@TEST_VAR-7024 @Auto ' để nó chạy được (do có lỗi chưa sửa được)  

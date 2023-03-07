@@ -1,0 +1,19 @@
+{
+    "staging_varsam-staging": [
+        {
+            "CaseTitle": "Case check WF 5637",
+            "CaseType": "Case Type For Auto",
+            "SelectEntityType": "Account",
+            "SearchEntity": "Contemi Testing",
+            "Description": "Test wf on account detail",
+            "DueDate": "",
+            "Priority": "Normal",
+            "AssignedTo": "James Tran",
+            "CaseStatus": "New",
+            "Queue": "Queue For Automation Testing",
+            "AccountName": "Contemi Testing"
+        }
+    ],
+    "uat_varsam-staging": {
+    }
+}

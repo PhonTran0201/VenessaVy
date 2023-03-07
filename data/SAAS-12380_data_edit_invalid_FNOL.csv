@@ -1,0 +1,3 @@
+SelectedCase,CaseTitle,SelectEntityType,SearchEntity,Description,DueDate,Queue,Priority,AssignedTo
+Case create,,,,Create a case in case list,15/11/2021 11:20,,Low,Mi Tran
+Case create,Edit invalid 2,,,Create a case in case list,15/11/2021 11:20,,,Mi Tran

@@ -1,0 +1,12 @@
+{
+  "staging_varsam-staging": [
+    {
+      "CaseTypeName": "1",
+      "CaseTypeCode": "1",
+      "Workflow": "Case Default Workflow",
+      "Queue": "Photo Documentation Queue",
+      "FilterName": "Bruce Case Types Test",
+      "FilterType": "Global"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "staging_varsam-staging":
+    [
+      {
+        "FirstName": "Acc",
+        "LastName": "A",
+        "Address": "Address",
+        "Postcode": "94",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": "Connect",
+        "ConfirmMessage": "This customer is currently connected to another household. Would you like to remove the existing household and connect to the new one?"
+      },
+      {
+        "FirstName": "Acc",
+        "LastName": "2",
+        "Address": "Address",
+        "Postcode": "94",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": ""
+      },
+      {
+        "FirstName": "Acc",
+        "LastName": "1",
+        "Address": "Address",
+        "Postcode": "94",
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Status": ""
+      }
+    ],
+    "staging_contemi-testing":{
+    }
+}

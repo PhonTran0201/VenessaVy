@@ -1,0 +1,110 @@
+{
+    "staging_varsam-staging": {
+        "ProductVersion": "v32",
+        "FirstName": "Per Anders",
+        "LastName": "BLOMKVIST",
+        "AccountName": "Per Anders BLOMKVIST",
+        "SaleChannel": "Test Channel",
+        "ProductName": "$.ProductBoat",
+        "DOB": "22/08/1966",
+        "SSN": "196608223373",
+        "StartDate": "12/02/2023",
+        "EndDate": "11/02/2024",
+        "PostCode": "36296",
+        "NauticExperience": "Nej",
+        "BoatRegion": "Strömstad-Kungsbacka",
+        "BoatNightHabour": "Ja",
+        "HomeHarbourName": "10",
+        "BoatType": "Motorbåt",
+        "EngineType": "Inombordare",
+        "RibBoatTag": "Ja",
+        "BoatMaterial": "Trä",
+        "WoodBoatWithPlastic": "No",
+        "BoatMake": "RYDS",
+        "BoatModel": "10",
+        "BoatSerialNoTag": "10",
+        "EngineMake": "Honda",
+        "BoatUsedByCompany": "No",
+        "EnginePower": "115",
+        "NumberOfEngines": "1",
+        "EngineSerialNo": [
+            "10"
+        ],
+        "CogSerialNo": [
+            "11"
+        ],
+        "BoatTheftProtection": "Nej",
+        "EngineYear": "1989",
+        "BoatModelYear": "1989",
+        "BoatValue": "500000",
+        "BoatLength": "560",
+        "BoatWidth": "234",
+        "BoatMaxspeed": "38",
+        "Storage": "Gemensam förvaringslokal olarmad",
+        "BoatContract": "Yes",
+        "MaintenanceStorage": "No",
+        "StorageStreet": "10",
+        "StoragePostalCode": "11582",
+        "HasOtherMainInsurance": "Nej",
+        "PropertyDamageDeductible": "10 000 kr",
+        "BoatTrailer": "Yes",
+        "BoatTrailerValue": "0",
+        "ExternalText": "External text test",
+        "InternalText": "Internal text test",
+        "SalesDiscount": "0",
+        "ProductCommission": "0",
+        "SalesCommission": "0",
+        "Currency": "SEK",
+        "StatusPolicy": "Active",
+        "NameOfPreviousInsurer": "New insurance",
+        "RenewalMode": "Automatic Renewal Quote",
+        "Premium": [
+            {
+                "AnnualPremium_PremiumExlTax": "1339.29",
+                "AnnualPremium_UnderwritingAdjustment": "0",
+                "AnnualPremium_SalesDiscount": "0",
+                "AnnualPremium_ProductCommission": "0",
+                "AnnualPremium_SalesCommission": "0",
+                "AnnualPremium_Tax": "0",
+                "TotalPremium_AnnualPremium": "1339.29"
+            },
+            {
+                "PolicyPremium_PremiumExlTax": "1339.29",
+                "PolicyPremium_UnderwritingAdjustment": "0",
+                "PolicyPremium_SalesDiscount": "0",
+                "PolicyPremium_ProductCommission": "0",
+                "PolicyPremium_SalesCommission": "0",
+                "PolicyPremium_Tax": "0",
+                "TotalPremium_PolicyPremium": "1339.29"
+            }
+        ],
+        "CoverBreakdown": [
+            {
+                "AnnualPremium_Egendomsförsäkring": "1094.29",
+                "AnnualPremium_Ansvarsförsäkring": "0",
+                "AnnualPremium_Rättskyddsförsäkring": "0",
+                "AnnualPremium_Olycksfall": "220",
+                "AnnualPremium_Släpvagn": "25",
+                "AnnualPremium_Total_premium": "1339.29"
+            },
+            {
+                "PolicyPremium_Egendomsförsäkring": "1094.29",
+                "PolicyPremium_Ansvarsförsäkring": "0",
+                "PolicyPremium_Rättskyddsförsäkring": "0",
+                "PolicyPremium_Olycksfall": "220",
+                "PolicyPremium_Släpvagn": "25",
+                "PolicyPremium_Total_premium": "1339.29"
+            }
+        ],
+        "PolicyTimelineStartDatePopover": [
+            {
+                "Personnummer": "196608223373",
+                "Förnamn": "Per Anders",
+                "Efternamn": "BLOMKVIST"
+            }
+        ]
+    },
+    "uat_varsam-staging": {
+        "abc": 123
+    }
+}

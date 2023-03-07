@@ -1,0 +1,8 @@
+{
+  "staging_varsam-staging": {
+    "CaseTypeCode": "nxt_1000",
+    "CaseTypeName": "Bruce Edited Case Type Test",
+    "Workflow": "Jolie Test",
+    "Queue": "test queue"
+  }
+}

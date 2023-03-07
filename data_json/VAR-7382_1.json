@@ -1,0 +1,13 @@
+{
+    "staging_varsam-staging": {
+        "AwardedDateFrom": "",
+        "AwardedDateTo": "",
+        "ProgramName": "",
+        "Product": "Hem",
+        "SelectAllPrograms": "true",
+        "SelectAllProducts": "false"
+    },
+    "uat_varsam-staging": {
+        "abc": 123
+    }
+}

@@ -1,0 +1,2 @@
+SalesChannel,Product,StartDate,EndDate,Name,Age,NumberOfTraveller,LuggageExcess,AdditionalCover,ExpectedPremium,ExpectedStatus,Currency
+Test Channel,Automation Test Product,12/03/2022,12/02/2023,Jolie Nguyen,41,Single Adult,250,Yes,1129.75,Completed,GBP
