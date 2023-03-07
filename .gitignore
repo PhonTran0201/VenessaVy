@@ -14,7 +14,7 @@ features/insurance/feature_daily_smoke_testPROD
 src/shared/tenant-setting/tenant-setting-objectPROD.json
 src/shared/user-profile/user-profile-object.json
 data_regression_varsam/
-downloads/
 GENERATE_SCRIPT.ts
 GENERATE_STEPS.ts
 @rerun.txt
+reports/test_report.json
