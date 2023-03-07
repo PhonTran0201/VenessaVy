@@ -26,8 +26,8 @@ export class Utilities {
             return new Builder().forBrowser('chrome')
                 // Enable to use remote selenium hub.
                 .withCapabilities(settings.selenium.capabilities)
-                .setChromeOptions(new chrome.Options()
-                    .setUserPreferences({ 'download.default_directory': `${DownloadFilePathGlobalVariable}` }))
+                // .setChromeOptions(new chrome.Options()
+                //     .setUserPreferences({ 'download.default_directory': `${DownloadFilePathGlobalVariable}` }))
                 .build();
         }
     }
