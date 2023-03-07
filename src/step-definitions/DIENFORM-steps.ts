@@ -67,15 +67,18 @@ When("User fills form {string}", async (filename) => {
             }
             //Cau 4
             await pageForm.SelectQuestion1Options(Cau4, DapAn4);
-            
-             //Cau 5
-             await pageForm.SelectQuestion1Options(Cau5, DapAn5);
 
-              //Cau 6
+            //Cau 5
+            await pageForm.SelectQuestion1Options(Cau5, DapAn5);
+
+            //Cau 6
             await pageForm.SelectQuestion1Options(Cau6, DapAn6);
 
             //Khao sat do quan tam
-            await pageForm.doQuanTam(CauDoQuanTam, DapAnDoQuanTam, 6);
+            let arrayQT = DapAnDoQuanTam.split(",");
+            for (let i = 0; i < 6; i++) {
+                await pageForm.doQuanTam(CauDoQuanTam, arrayQT[i], i + 1);
+            }
 
 
             await pageForm.pressTiepButton();
@@ -85,7 +88,10 @@ When("User fills form {string}", async (filename) => {
 
 
             //Khao sat su anh huong San Pham
-            await pageForm.suAnhHuong(CauSuAnhHuongSanPham, DapAnSuAnhHuongSanPham, 4);
+            let arraySP = DapAnSuAnhHuongSanPham.split(",");
+            for (let i = 0; i < 4; i++) {
+                await pageForm.suAnhHuong(CauSuAnhHuongSanPham, arraySP[i], i);
+            }
 
             await pageForm.pressTiepButton();
             if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 5 trong tổng số 11']`))) {
@@ -93,15 +99,20 @@ When("User fills form {string}", async (filename) => {
             }
 
             //Khao sat su anh huong Gia Ca
-            await pageForm.suAnhHuong(CauSuAnhHuongGiaCa, DapAnSuAnhHuongGiaCa, 5);
-
+            let arrayGC = DapAnSuAnhHuongGiaCa.split(",");
+            for (let i = 0; i < 5; i++) {
+                await pageForm.suAnhHuong(CauSuAnhHuongGiaCa, arrayGC[i], i);
+            }
             await pageForm.pressTiepButton();
             if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 6 trong tổng số 11']`))) {
                 await pageForm.pressTiepButton();
             }
 
             //Khao sat su anh huong Quang Cao- Khuyen Mai
-            await pageForm.suAnhHuong(CauSuAnhHuongQC_KM, DapAnSuAnhHuongQC_KM, 5);
+            let arrayQCKM = DapAnSuAnhHuongQC_KM.split(",");
+            for (let i = 0; i < 5; i++) {
+                await pageForm.suAnhHuong(CauSuAnhHuongQC_KM, arrayQCKM[i], i);
+            }
 
             await pageForm.pressTiepButton();
             if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 7 trong tổng số 11']`))) {
@@ -109,46 +120,52 @@ When("User fills form {string}", async (filename) => {
             }
 
 
-              //Khao sat su anh huong Quoc Gia - Xuat xư
-              await pageForm.suAnhHuong(CauSuAnhHuongQG_XX, DapAnSuAnhHuongQG_XX, 4);
-
-              await pageForm.pressTiepButton();
-              if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 8 trong tổng số 11']`))) {
-                  await pageForm.pressTiepButton();
-              }
-
-               //Khao sat su anh huong Chuan Chu Quan
-               await pageForm.suAnhHuong(CauSuAnhHuongCCQ, DapAnSuAnhHuongCCQ, 5);
-
-               await pageForm.pressTiepButton();
-               if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 9 trong tổng số 11']`))) {
-                   await pageForm.pressTiepButton();
-               }
-
-
-                //Khao sat su anh huong kIEN Thuc Nguoi Tieu Dung
-                await pageForm.suAnhHuong(CauSuAnhHuongKTNTD, DapAnSuAnhHuongKTNTD, 4);
-
+            //Khao sat su anh huong Quoc Gia - Xuat xư
+            let arrayQGXX = DapAnSuAnhHuongQG_XX.split(",");
+            for (let i = 0; i < 4; i++) {
+            await pageForm.suAnhHuong(CauSuAnhHuongQG_XX, arrayQGXX[i], i);
+            }
+            await pageForm.pressTiepButton();
+            if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 8 trong tổng số 11']`))) {
                 await pageForm.pressTiepButton();
-                if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 11 trong tổng số 11']`))) {
-                    await pageForm.pressTiepButton();
-                }
+            }
 
-                 //Gioi Tinh
+            //Khao sat su anh huong Chuan Chu Quan
+            let arrayCCQ = DapAnSuAnhHuongCCQ.split(",");
+            for (let i = 0; i < 5; i++) {
+            await pageForm.suAnhHuong(CauSuAnhHuongCCQ, arrayCCQ[i], i);
+            }
+            await pageForm.pressTiepButton();
+            if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 9 trong tổng số 11']`))) {
+                await pageForm.pressTiepButton();
+            }
+
+
+            //Khao sat su anh huong kIEN Thuc Nguoi Tieu Dung
+            let arrayKTNTD = DapAnSuAnhHuongKTNTD.split(",");
+            for (let i = 0; i < 4; i++) {
+            await pageForm.suAnhHuong(CauSuAnhHuongKTNTD, arrayKTNTD[i], i);
+            }
+            await pageForm.pressTiepButton();
+            if (!await pageGlobal.waitElementVisible(By.xpath(`//*[@id='lpd4pf' and text()='Trang 11 trong tổng số 11']`))) {
+                await pageForm.pressTiepButton();
+            }
+
+            //Gioi Tinh
             await pageForm.SelectQuestion1Options(GioiTinh, DapAnGioiTinh);
 
-             //Do Tuoi
-             await pageForm.SelectQuestion1Options(DoTuoi, DapAnDoTuoi);
+            //Do Tuoi
+            await pageForm.SelectQuestion1Options(DoTuoi, DapAnDoTuoi);
 
-              //Nghe Nghiep
+            //Nghe Nghiep
             await pageForm.SelectQuestion1Options(NgheNghiep, DapAnNgheNghiep);
 
-             //Thu Nhap Sau Thue
-             await pageForm.SelectQuestion1Options(ThuNhapSauThue, DapAnThuNhapSauThue);
-             
-             await pageForm.pressGuiButton();
+            //Thu Nhap Sau Thue
+            await pageForm.SelectQuestion1Options(ThuNhapSauThue, DapAnThuNhapSauThue);
 
-             await pageForm.pressGuiPhanHoiKhac();
+            await pageForm.pressGuiButton();
+
+            await pageForm.pressGuiPhanHoiKhac();
 
         }
     }

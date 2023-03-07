@@ -20,36 +20,19 @@ Run `npm run report` to generate report
 
 This project is using chromedriver version 79, so please make sure your chrome browser is updated to version 79. To update chrome to version 79, open chrome, go to Setting menu -> About chrome (or just paste this link to your browser: `chrome://settings/help`) -> Update to latest version.
 
-## Meaning of tags
-
-@RegressionTest
-    - This tag decides a test case will not logout after finish execute.
-    - The data on Jira will be attached on path "/data_regression/"
-
-@CustomerPortalAtlas
-    - It includes test cases that executed on Customer portal Atlas system
-
-@CustomerPortalHogs
-    - It includes test cases that executed on Customer portal Hogs system
-
-@AgentPortalHogs
-    - It includes test cases that executed on Agent portal Hogs system
-
-@ThirdParty24Senven
-    - It includes test cases that executed on 24Senven system
-
-@HOGSE
-    - It includes test cases that executed on BOP project HOGSE
-
-@Atlas
-    - It includes test cases that executed on BOP project Atlas
-
-@Hogs
-    - It includes test cases that executed on BOP project Hogs
+## Rule
 
 
-System Language Tags: affect to test case level
+**DapAnDoQuanTam**                   (6 kết quả) : **từ 1 - 3**
 
-- By default: we are testing in English(using tag @English)
-- With Norwegian: using tags @Norway, @Norsk or @Norwegian
-- With Swedish: using tags @Swedish, @Svenska
+**DapAnSuAnhHuongSanPham** (4 kết quả) : từ 1 - 5
+
+**DapAnSuAnhHuongGiaCa**       (5 kết quả) : từ 1 - 5
+
+**DapAnSuAnhHuongQC_KM**     (5 kết quả) : từ 1 - 5
+
+**DapAnSuAnhHuongQG_XX**    (4 kết quả) : từ 1 - 5
+
+**DapAnSuAnhHuongCCQ**        (5 kết quả) : từ 1 - 5
+
+**DapAnSuAnhHuongKTNTD**   (4 kết quả): từ 1 - 5
