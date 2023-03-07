@@ -76,6 +76,7 @@ import { QueueDetails } from "./back-office-portal/general/queue/QueueDetails";
 import { scenarioTags } from "../shared/variables";
 import { PaymentOptionFormInsuranceVarsam } from "./back-office-portal/insurance/policy/policy-layout/PaymentOptionFormInsuranceVarsam";
 import { PaymentOptionFormInsurance } from "./back-office-portal/insurance/policy/policy-layout/PaymentOptionFormInsurance";
+import { DIENFORM } from "./back-office-portal/general/DIENFORM/DIENFORM";
 
 export class PageFactory implements IPageFactory {
     protected static instance: PageFactory;
@@ -90,6 +91,10 @@ export class PageFactory implements IPageFactory {
         return PageFactory.instance;
     }
 
+    createDIENFORM(){
+        return new DIENFORM(SeleniumWebDriverService.getInstance());
+    }
+    
     createGlobalPaginationPage() {
         return new GlobalPagination(SeleniumWebDriverService.getInstance());
     }

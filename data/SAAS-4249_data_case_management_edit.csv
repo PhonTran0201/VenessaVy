@@ -1,2 +1,0 @@
-SelectedCase,CaseTitle,Workflow,CaseType,SelectEntityType,SearchEntity,Description,DueDate,Queue,Priority,AssignedTo
-Case precondition,Case edit,Case Default Workflow,Generic,Account,Lena Stromberg,Edit case,10/01/2021 11:20,Opportunity,Low,Mi Tran

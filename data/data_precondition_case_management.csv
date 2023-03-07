@@ -1,2 +1,0 @@
-CaseTitle,CaseType,SelectEntityType,SearchEntity,Description,DueDate,Queue,Priority,AssignedTo
-Case precondition,Case Default Workflow,Account,Lena Stromberg,Create a case in case list,22/01/2021 11:20,QueueTest,Low,Automation Test
