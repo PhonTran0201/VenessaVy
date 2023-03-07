@@ -1,0 +1,440 @@
+{
+    "data": {
+        "type": "users",
+        "id": "james.tran@varsam-staging",
+        "attributes": {
+            "username": "james.tran@varsam-staging",
+            "displayName": "James Tran",
+            "email": "james.tran@contemi.com",
+            "phoneNumber": null,
+            "formalName": null,
+            "createdAt": "2022-09-21T03:01:10.924765+00:00",
+            "createdBy": "terry.contemi@varsam-staging",
+            "tenantId": "varsam-staging",
+            "scope": "varsam-staging",
+            "organizationId": "varsam-staging",
+            "isActive": true,
+            "languageCode": "en-gb",
+            "canReInvite": null,
+            "actions": {
+                "ViewApplications": {
+                    "isAllowed": true
+                },
+                "ManageApplications": {
+                    "isAllowed": true
+                },
+                "AccessClaims": {
+                    "isAllowed": true
+                },
+                "AccessFNOL": {
+                    "isAllowed": true
+                },
+                "ViewConsentsSetup": {
+                    "isAllowed": true
+                },
+                "ManageConsentsSetup": {
+                    "isAllowed": true
+                },
+                "ViewDataSubjectConsents": {
+                    "isAllowed": true
+                },
+                "ManageDataSubjectConsents": {
+                    "isAllowed": true
+                },
+                "ViewComplianceSettings": {
+                    "isAllowed": true
+                },
+                "ManageComplianceSettings": {
+                    "isAllowed": true
+                },
+                "Configuration_ViewModules": {
+                    "isAllowed": true
+                },
+                "Configuration_ConfigureModules": {
+                    "isAllowed": true
+                },
+                "Configuration_SetupSummaryView": {
+                    "isAllowed": true
+                },
+                "Guarantees_ViewAgreements": {
+                    "isAllowed": false
+                },
+                "Guarantees_ManageAgreements": {
+                    "isAllowed": false
+                },
+                "Guarantees_CreateApplications": {
+                    "isAllowed": false
+                },
+                "Guarantees_ViewApplications": {
+                    "isAllowed": false
+                },
+                "Guarantees_AssessApplications": {
+                    "isAllowed": false
+                },
+                "Guarantees_ViewGuarantees": {
+                    "isAllowed": false
+                },
+                "Guarantees_AmendGuarantees": {
+                    "isAllowed": false
+                },
+                "Guarantees_TerminateGuarantees": {
+                    "isAllowed": false
+                },
+                "Guarantees_RemoveDocuments": {
+                    "isAllowed": false
+                },
+                "Guarantees_ViewInstalments": {
+                    "isAllowed": false
+                },
+                "Guarantees_UpdateInstalments": {
+                    "isAllowed": false
+                },
+                "PluginIntegrations_ViewPlugins": {
+                    "isAllowed": true
+                },
+                "PluginIntegrations_ManagePlugins": {
+                    "isAllowed": true
+                },
+                "ViewPortalUserAccounts": {
+                    "isAllowed": true
+                },
+                "ManagePortalUserAccounts": {
+                    "isAllowed": true
+                },
+                "Customers_AccessHousehold": {
+                    "isAllowed": true
+                },
+                "ViewDocuments": {
+                    "isAllowed": true
+                },
+                "ManageDocuments": {
+                    "isAllowed": true
+                },
+                "ViewTemplates": {
+                    "isAllowed": true
+                },
+                "ManageTemplates": {
+                    "isAllowed": true
+                },
+                "ViewFinanceSettings": {
+                    "isAllowed": true
+                },
+                "ManageFinanceSettings": {
+                    "isAllowed": true
+                },
+                "AccessInvestments": {
+                    "isAllowed": false
+                },
+                "ManageMotorRegistrySettings": {
+                    "isAllowed": true
+                },
+                "AccessMotorRegistryData": {
+                    "isAllowed": true
+                },
+                "ManageTffMotorProviderSettings": {
+                    "isAllowed": false
+                },
+                "ManageGtrMotorProviderSettings": {
+                    "isAllowed": true
+                },
+                "ManageMotorRegistryPosting": {
+                    "isAllowed": true
+                },
+                "ViewOrganizations": {
+                    "isAllowed": true
+                },
+                "ManageOrganizations": {
+                    "isAllowed": true
+                },
+                "ViewPaymentOptions": {
+                    "isAllowed": true
+                },
+                "ViewProducts": {
+                    "isAllowed": true
+                },
+                "ManageProducts": {
+                    "isAllowed": true
+                },
+                "ViewProductSettings": {
+                    "isAllowed": true
+                },
+                "ManageProductSettings": {
+                    "isAllowed": true
+                },
+                "CreateBinder": {
+                    "isAllowed": true
+                },
+                "ViewAnonymousQuotes": {
+                    "isAllowed": true
+                },
+                "CreateAnonymousQuote": {
+                    "isAllowed": true
+                },
+                "ManageReports": {
+                    "isAllowed": true
+                },
+                "ViewReports": {
+                    "isAllowed": true
+                },
+                "ViewPolicyReport": {
+                    "isAllowed": false
+                },
+                "ViewCoverReport": {
+                    "isAllowed": false
+                },
+                "ViewCommissionReport": {
+                    "isAllowed": false
+                },
+                "ViewCustomerReport": {
+                    "isAllowed": false
+                },
+                "ViewSalesReport": {
+                    "isAllowed": false
+                },
+                "ViewClaimReport": {
+                    "isAllowed": false
+                },
+                "ViewCaseReport": {
+                    "isAllowed": false
+                },
+                "ViewCallReport": {
+                    "isAllowed": false
+                },
+                "ViewGuaranteeBDXReport": {
+                    "isAllowed": false
+                },
+                "ViewClaimBordereauxReport": {
+                    "isAllowed": false
+                },
+                "ViewWrittenPremiumReport": {
+                    "isAllowed": false
+                },
+                "ViewTFAReport": {
+                    "isAllowed": true
+                },
+                "ViewRoles": {
+                    "isAllowed": true
+                },
+                "ManageRoles": {
+                    "isAllowed": true
+                },
+                "AccessChecklists": {
+                    "isAllowed": true
+                },
+                "ViewSystemSettings": {
+                    "isAllowed": true
+                },
+                "ManageSystemSettings": {
+                    "isAllowed": true
+                },
+                "ViewPolicies": {
+                    "isAllowed": true
+                },
+                "Accounts_ViewAccounts": {
+                    "isAllowed": true
+                },
+                "Accounts_CreateAccounts": {
+                    "isAllowed": true
+                },
+                "Accounts_UpdateAccounts": {
+                    "isAllowed": true
+                },
+                "Accounts_ExportAccounts": {
+                    "isAllowed": true
+                },
+                "Accounts_ImportAccounts": {
+                    "isAllowed": false
+                },
+                "Accounts_ViewHistory": {
+                    "isAllowed": true
+                },
+                "Accounts_ViewContacts": {
+                    "isAllowed": true
+                },
+                "Accounts_CreateContacts": {
+                    "isAllowed": true
+                },
+                "Accounts_UpdateContacts": {
+                    "isAllowed": true
+                },
+                "Accounts_DeleteContacts": {
+                    "isAllowed": true
+                },
+                "Accounts_UpdateCustomerDiscount": {
+                    "isAllowed": false
+                },
+                "Accounts_AddAccountsToTargetGroup": {
+                    "isAllowed": false
+                },
+                "Accounts_AddContactsToTargetGroup": {
+                    "isAllowed": false
+                },
+                "Accounts_DeleteAccounts": {
+                    "isAllowed": true
+                },
+                "Accounts_ManageScoring": {
+                    "isAllowed": true
+                },
+                "ViewUsers": {
+                    "isAllowed": true
+                },
+                "InviteUser": {
+                    "isAllowed": true
+                },
+                "EditUser": {
+                    "isAllowed": true
+                },
+                "DeleteUser": {
+                    "isAllowed": true
+                },
+                "AssignRoles": {
+                    "isAllowed": true
+                },
+                "User_MfaSmsAuthentication": {
+                    "isAllowed": false
+                },
+                "User_MfaAuthenticatorAuthentication": {
+                    "isAllowed": false
+                },
+                "SetPassword": {
+                    "isAllowed": true
+                },
+                "Campaigns_ViewCampaigns": {
+                    "isAllowed": false
+                },
+                "Campaigns_CreateCampaigns": {
+                    "isAllowed": false
+                },
+                "Campaigns_UpdateCampaigns": {
+                    "isAllowed": false
+                },
+                "Campaigns_DeleteCampaigns": {
+                    "isAllowed": false
+                },
+                "Campaigns_AccessTargetGroup": {
+                    "isAllowed": true
+                },
+                "Entities_ViewEntities": {
+                    "isAllowed": true
+                },
+                "Entities_CreateEntities": {
+                    "isAllowed": true
+                },
+                "Entities_UpdateEntities": {
+                    "isAllowed": true
+                },
+                "Entities_DeleteEntities": {
+                    "isAllowed": true
+                },
+                "Notes_ViewNotes": {
+                    "isAllowed": true
+                },
+                "Notes_CreateNotes": {
+                    "isAllowed": true
+                },
+                "Notes_UpdateNotes": {
+                    "isAllowed": true
+                },
+                "Notes_DeleteNotes": {
+                    "isAllowed": true
+                },
+                "Opportunities_AccessTeam": {
+                    "isAllowed": true
+                },
+                "Queues_ViewQueues": {
+                    "isAllowed": true
+                },
+                "Queues_CreateQueues": {
+                    "isAllowed": true
+                },
+                "Queues_UpdateQueues": {
+                    "isAllowed": true
+                },
+                "Queues_DeleteQueues": {
+                    "isAllowed": true
+                },
+                "Queues_UpdateRolePermissions": {
+                    "isAllowed": true
+                },
+                "Sales_ViewSales": {
+                    "isAllowed": true
+                },
+                "Sales_CreateSales": {
+                    "isAllowed": true
+                },
+                "Sales_UpdateSales": {
+                    "isAllowed": true
+                },
+                "Sales_DeleteSales": {
+                    "isAllowed": true
+                },
+                "Sales_ImportSales": {
+                    "isAllowed": false
+                },
+                "Sales_ViewLeads": {
+                    "isAllowed": true
+                },
+                "Sales_CreateLeads": {
+                    "isAllowed": true
+                },
+                "Sales_UpdateLeads": {
+                    "isAllowed": true
+                },
+                "Sales_ImportLeads": {
+                    "isAllowed": true
+                },
+                "Sales_AddLeadsToTargetGroup": {
+                    "isAllowed": false
+                },
+                "Sales_ViewPipelines": {
+                    "isAllowed": true
+                },
+                "Sales_CreatePipelines": {
+                    "isAllowed": true
+                },
+                "Sales_UpdatePipelines": {
+                    "isAllowed": true
+                },
+                "Sales_DeletePipelines": {
+                    "isAllowed": true
+                },
+                "Sales_DeleteLeads": {
+                    "isAllowed": true
+                },
+                "Security_ViewAuditLogs": {
+                    "isAllowed": true
+                },
+                "SMS_ViewSMS": {
+                    "isAllowed": false
+                },
+                "SMS_SendSMS": {
+                    "isAllowed": false
+                },
+                "TargetGroups_ViewTargetGroups": {
+                    "isAllowed": false
+                },
+                "TargetGroups_CreateTargetGroups": {
+                    "isAllowed": false
+                },
+                "TargetGroups_UpdateTargetGroups": {
+                    "isAllowed": false
+                },
+                "TargetGroups_DeleteTargetGroups": {
+                    "isAllowed": false
+                },
+                "Workflows_ViewWorkflows": {
+                    "isAllowed": true
+                },
+                "Workflows_CreateWorkflows": {
+                    "isAllowed": true
+                },
+                "Workflows_UpdateWorkflows": {
+                    "isAllowed": true
+                },
+                "Workflows_DeleteWorkflows": {
+                    "isAllowed": true
+                }
+            }
+        }
+    }
+}
